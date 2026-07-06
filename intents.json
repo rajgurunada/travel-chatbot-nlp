@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "context": [""],
+      "patterns": [
+        "Hi there",
+        "Greetings",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there!",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "tag": "greeting"
+    },
+    {
+      "context": [""],
+      "patterns": [
+        "How are you",
+        "What's up?",
+        "How is it going?",
+        "How are you today?"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "tag": "how_are_you"
+    },
+    {
+      "context": [""],
+      "patterns": [
+        "Who are you",
+        "What's your name?",
+        "What are you",
+        "Who is this"
+      ],
+      "responses": [
+        "I'm Travel Buddy",
+        "My name is Travel Buddy",
+        "Thanks for asking, I'm Travel Buddy!"
+      ],
+      "tag": "who_are_you"
+    },
+    {
+      "context": [""],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "tag": "goodbye"
+    },
+    {
+      "context": [""],
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Of course!"
+      ],
+      "tag": "thanks"
+    },
+    {
+      "context": [""],
+      "patterns": [],
+      "responses": [
+        "Sorry, I can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "tag": "noanswer"
+    },
+    {
+      "context": [""],
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can give travel tips, including weather reports and time zone information!",
+        "I have tips on travel, weather, and time zones."
+      ],
+      "tag": "options"
+    },
+    {
+      "context": [""],
+      "patterns": [
+        "How to get a travel tip",
+        "Open travel tips module",
+        "Give me a travel tip",
+        "I want a tip for travel",
+        "Help me with travel"
+      ],
+      "responses": [
+        "Here's a tip: always pack light!",
+        "Don't forget to bring a towel! No, seriously!",
+        "Always pack extra socks!",
+        "Here's a tip: keep your passport and credit cards safe and on your person!",
+        "Here's a tip: Solo travel is amazing, but do your research first and be extra cautious!",
+        "Keep your phone charged, and pack a charging pack. You never know when you'll need to find a rideshare, check your map, or call an emergency number.",
+        "Here's a tip: remember to make extra copies of your passport and other documents.",
+        "Try to learn at least a few basic phrases in the local language. It's useful and respectful!",
+        "Lunch time is a great time to visit historical sites without the huge crowd.",
+        "Here's a tip: When traveling to a new city, be on the lookout for free walking tours!",
+        "Remember: Don't beat up your feet! Bring sensible, comfortable, broken-in shoes.",
+        "Don't forget to take pictures!",
+        "Everyone should wear sunscreen every day, especially while spending a lot of time outside or visiting sunny locales."
+      ],
+      "tag": "travel_tips"
+    }
+  ]
+}
